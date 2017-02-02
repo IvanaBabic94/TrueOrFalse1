@@ -16,7 +16,7 @@
         android:fontFamily="casual"
         android:layout_margin="16dp"
         android:id="@+id/grade"
-        android:text="Congratulations"/>
+        android:text="Čestitamo"/>
 
     <TextView
         android:layout_below="@+id/grade"
@@ -29,14 +29,14 @@
         android:layout_margin="16dp"
         android:fontFamily="casual"
         android:id="@+id/outOf"
-        android:text="You scored 8 out of 9"/>
+        android:text="Vaš rezulat je 8 od 9"/>
 
     <Button
         android:layout_below="@+id/outOf"
         android:id="@+id/retry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Retry Quiz"
+        android:text="Ponovite kviz"
         android:padding="8dp"
         android:layout_margin="4dp"
         android:textColor="#fff"

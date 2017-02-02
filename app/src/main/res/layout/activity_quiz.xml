@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="Score:"
+            android:text="Rezultat:"
             android:fontFamily="casual"
             android:textSize="20sp"/>
 
@@ -51,7 +51,7 @@
         android:textSize="18sp"
         android:padding="8dp"
         android:layout_marginBottom="16dp"
-        android:text="Magnets have 3 poles"/>
+        android:text="Magneti imaju 3 pola?"/>
 
 
     <LinearLayout
@@ -63,7 +63,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="True"
+            android:text="Tačno"
             android:id="@+id/trueButton"
             android:textColor="#fff"
             android:fontFamily="casual"
@@ -75,7 +75,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="False"
+            android:text="Netačno"
             android:id="@+id/falseButton"
             android:textColor="#fff"
             android:fontFamily="casual"

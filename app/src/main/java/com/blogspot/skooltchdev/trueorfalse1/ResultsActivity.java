@@ -23,18 +23,18 @@ public class ResultsActivity extends AppCompatActivity {
 
 
         Bundle bundle = getIntent().getExtras();
-        int score = bundle.getInt("finalScore");
+        int score = bundle.getInt("krajnjiRezultat");
 
-        mFinalScore.setText("You scored " + score + " out of " + QuizBook.questions.length);
+        mFinalScore.setText("Tvoj rezultat je " + score + " od " + QuizBook.questions.length);
 
         if (score == 9){
-            mGrade.setText("Outstanding");
+            mGrade.setText("Izvanredno");
         }else if (score == 8){
-            mGrade.setText("Good Work");
+            mGrade.setText("Dobro urađeno");
         }else if (score == 7) {
-            mGrade.setText("Good Effort");
+            mGrade.setText("Dobar pokušaj");
         }else {
-            mGrade.setText("Go over your notes");
+            mGrade.setText("Može to bolje");
         }
 
         mRetryButton.setOnClickListener(new View.OnClickListener() {

@@ -4,15 +4,15 @@ package com.blogspot.skooltchdev.trueorfalse1;
 public class QuizBook {
 
     public static String[] questions = new String [] {
-            "Magnets have two poles.",
-            "Magnets have an East pole and a West pole.",
-            "The Earth is not magnetic.",
-            "Magnetic fields can clearly be seen with your eyes.",
-            "The above diagram represents attraction between two magnets.",
-            "An iron nail is attracted to a magnet.",
-            "An electromagnet uses alternating current from the mains.",
-            "An electromagnet is a temporary magnet.",
-            "The above magnet is a disc magnet.",
+            "Magneti imaju dva pola.",
+            "Magneti imaju istočni pol.",
+            "Zemlja nije namagnetisana.",
+            "Magnetna polja se jasno mogu videti pod golim okom.",
+            "Dijagram pokazuje privlačnost između polova",
+            "Magnet može privući gvozdeni ekser.",
+            "Elektromagnet koristi naizmenične struje",
+            "Elektromagnet je privremeno namagnetisan.",
+            "Magnet sa slike je magnetni disk.",
     };
 
     public static int[] images = new int [] {

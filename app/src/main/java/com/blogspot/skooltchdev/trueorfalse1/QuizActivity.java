@@ -45,7 +45,7 @@ public class QuizActivity extends AppCompatActivity {
                     if (mQuestionNumber == QuizBook.questions.length) {
                         Intent i = new Intent(QuizActivity.this, ResultsActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putInt("finalScore", mScore);
+                        bundle.putInt("krajnjiRezultat", mScore);
                         i.putExtras(bundle);
                         QuizActivity.this.finish();
                         startActivity(i);
@@ -57,7 +57,7 @@ public class QuizActivity extends AppCompatActivity {
                     if (mQuestionNumber == QuizBook.questions.length) {
                         Intent i = new Intent(QuizActivity.this, ResultsActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putInt("finalScore", mScore);
+                        bundle.putInt("krajnjiRezultat", mScore);
                         i.putExtras(bundle);
                         QuizActivity.this.finish();
                         startActivity(i);
@@ -83,7 +83,7 @@ public class QuizActivity extends AppCompatActivity {
                     if (mQuestionNumber == QuizBook.questions.length) {
                         Intent i = new Intent(QuizActivity.this, ResultsActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putInt("finalScore", mScore);
+                        bundle.putInt("krajnjiRezultat", mScore);
                         i.putExtras(bundle);
                         QuizActivity.this.finish();
                         startActivity(i);
@@ -95,7 +95,7 @@ public class QuizActivity extends AppCompatActivity {
                     if (mQuestionNumber == QuizBook.questions.length) {
                         Intent i = new Intent(QuizActivity.this, ResultsActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putInt("finalScore", mScore);
+                        bundle.putInt("krajnjiRezultat", mScore);
                         i.putExtras(bundle);
                         QuizActivity.this.finish();
                         startActivity(i);
@@ -132,15 +132,15 @@ public class QuizActivity extends AppCompatActivity {
 
     private void askToClose (){
         AlertDialog.Builder builder = new AlertDialog.Builder(QuizActivity.this);
-        builder.setMessage("Are you sure you want to quit?");
+        builder.setMessage("Da li ste sigurni da želite da izađete");
         builder.setCancelable(true);
-        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Da", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
                 finish();
             }
         });
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Prekini", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
